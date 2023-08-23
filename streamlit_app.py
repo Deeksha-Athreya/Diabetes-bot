@@ -5,7 +5,7 @@ import pickle
 import pickle
 
 # Extracted content of the IPython Notebook file
- Diabetes_prediction= {
+Diabetes_prediction= {
     "metadata": {...},
     "nbformat": ...,
     "nbformat_minor": ...,
