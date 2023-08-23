@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import pickle
+model_path = 'Diabetes_prediction.ipynb'
+with open(model_path, 'rb') as file:
+    model = pickle.load(file)
 
 def main():
     st.title('Diabetes Prediction')
