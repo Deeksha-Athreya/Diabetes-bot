@@ -1,11 +1,6 @@
 import streamlit as st
 import pandas as pd
 import pickle
-
-import pickle
-
-# Train your model
-model =
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -18,6 +13,10 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import confusion_matrix, accuracy_score
 from matplotlib.colors import ListedColormap
+
+# Train your model
+model =
+
 
 dataset = pd.read_csv('diabetes.csv')
 dataset.shape
