@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import pickle
 from sklearn.preprocessing import StandardScaler
+import sys
+sys.path.append('/path/to/sklearn')
 
 
 with open('Diabetes_prediction.ipynb', 'rb') as file:
