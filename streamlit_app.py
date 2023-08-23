@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title('My Streamlit App')
+st.title('Diabetes prediction bot')
 
 uploaded_file = st.file_uploader("Choose a file")
 
