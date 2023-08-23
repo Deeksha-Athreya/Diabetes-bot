@@ -2,6 +2,20 @@ import streamlit as st
 import pandas as pd
 import pickle
 
+import pickle
+
+# Extracted content of the IPython Notebook file
+ Diabetes_prediction= {
+    "metadata": {...},
+    "nbformat": ...,
+    "nbformat_minor": ...,
+    "cells": [...]
+}
+
+# Save the content as a pickle file
+with open('bot.pkl', 'wb') as file:
+    pickle.dump(notebook_content, file)
+
 def main():
     st.title('Diabetes Prediction')
     
