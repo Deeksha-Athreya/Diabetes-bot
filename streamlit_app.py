@@ -14,7 +14,7 @@ Diabetes_prediction= {
 
 # Save the content as a pickle file
 with open('bot.pkl', 'wb') as file:
-    pickle.dump(notebook_content, file)
+    pickle.dump(Diabetes_prediction, file)
 
 def main():
     st.title('Diabetes Prediction')
