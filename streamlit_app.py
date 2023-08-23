@@ -4,7 +4,7 @@ import pickle
 from sklearn.preprocessing import StandardScaler
 
 
-with open('diabetes_model.pkl', 'rb') as file:
+with open('Diabetes_prediction.ipynb', 'rb') as file:
     model = pickle.load(file)
 
 
@@ -20,6 +20,3 @@ if uploaded_file is not None:
     data = scaler.fit_transform(data)
     predictions = model.predict(data)
     st.write(predictions)
-
-
-
