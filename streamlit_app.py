@@ -1,8 +1,4 @@
-import numpy as np
-import pandas as pd
-import pickle
-import streamlit as st
-
+pip install -r requirements.txt
 
 
 
