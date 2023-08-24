@@ -2,12 +2,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import streamlit as st
-import matplotlib.pyplot as plt
-from sklearn.impute import SimpleImputer
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import confusion_matrix, accuracy_score
+
 
 
 
