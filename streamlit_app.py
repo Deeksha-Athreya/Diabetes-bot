@@ -2,7 +2,6 @@ pip install -r requirements.txt
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-%matplotlib inline
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.impute import SimpleImputer
